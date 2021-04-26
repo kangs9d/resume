@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Contact from '../utils/contact'
 import Header from './header'
+import Footer from './footer'
 
 const Main = () => {
 
@@ -18,12 +19,12 @@ const Main = () => {
 		{
 			url:"/skills",
 			title:"스킬셋",
-			description:"제가 가진 기술 목록을 확인하세요."
+			description:"제가 가진 여러 프로그래밍 기술 목록을 확인해보세요."
 		},
 		{
 			url:"/aboutMe",
 			title:"박준하는 누구인가",
-			description:"박준하에 대해서 확인해보세요."
+			description:"박준하라는 사람이 구체적으로 누구인지 확인해보세요."
 		}
 	]
 
@@ -44,10 +45,7 @@ const Main = () => {
 				</div>
 			</main>
 
-			<footer className={styles.footer}>
-					<div className={styles.flex}><img src='/phone-png.png' className={styles.img}></img><a>010-2754-1750</a></div>
-					<div className={styles.flex}><img src='/email.png' className={styles.img}></img><a>bakjuna@gmail.com</a></div>
-			</footer>
+			<Footer></Footer>
 		</div>
 		
 	)

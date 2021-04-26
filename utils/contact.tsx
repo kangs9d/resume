@@ -20,10 +20,10 @@ const Contact = () => {
 	const onClickBlogHandler = () => {
 		location.href = "https://bakjuna.tistory.com"
 	}
-	
+
 	return <>
 		<h1>Contact Links</h1>
-		<div style={{ padding: "40px 0",width:"800px", display:"flex", borderBottom: "1px darkgrey dashed"}}>
+		<div className={styles.contactDiv}>
 			<div className={styles.contact} style={{background:"url('/linkedin.png')", backgroundSize:"contain", backgroundRepeat:"no-repeat", backgroundPosition:"center"}} onClick={() => onClickLinkedInHandler()}></div>
 			<div className={styles.contact} style={{background:"url('/phone-png.png')", backgroundSize:"contain", backgroundRepeat:"no-repeat", backgroundPosition:"center"}} onClick={() => onClickPhoneHandler()}></div>
 			<div className={styles.contact} style={{background:"url('/email.png')", backgroundSize:"contain", backgroundRepeat:"no-repeat", backgroundPosition:"center"}} onClick={() => onClickEmailHandler()}></div>

@@ -154,12 +154,46 @@
 .logo {
 	height: 1em;
 }
+.contactDiv {
+	padding: 40px 0;
+	width:800px;
+	display:flex;
+	border-bottom: 1px darkgrey dashed;
+}
+@media (max-width: 800px) {
+	.contactDiv {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+	}
 
+	.gif {
+		background-position: 25%;
+	}
+	.gif img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.main {
+		width: 90%;
+	}
+
+	.description {
+		background: #fafafa;
+	}
+
+	.description .code {
+		background: transparent;
+	}
+}
 @media (max-width: 600px) {
 	.grid {
 		width: 100%;
 		flex-direction: column;
 	}
+
 }
 
 .shineHover:hover:after,
@@ -208,4 +242,9 @@
 	background-color: lightgray;
 	width: 100%;
 	padding: .5rem 1rem;
+}
+
+.bookParagraph {
+	width: 770px;
+	margin: 0 auto;
 }
