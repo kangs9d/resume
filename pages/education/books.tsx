@@ -29,7 +29,7 @@ const Books = () => {
         { BooksJSON.map((book) => (
             <div className={styles.inPage}>
                 <h1>{book.name}</h1>
-                <p className={styles.bookParagraph}>{book.felt}</p>
+                <p className={styles.paragraph}>{book.felt}</p>
             </div>
         )
         )}

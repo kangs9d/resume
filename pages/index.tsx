@@ -22,7 +22,7 @@ const Main = () => {
 			description:"제가 가진 여러 프로그래밍 기술 목록을 확인해보세요."
 		},
 		{
-			url:"/aboutMe",
+			url:"/whoami",
 			title:"박준하는 누구인가",
 			description:"박준하라는 사람이 구체적으로 누구인지 확인해보세요."
 		}

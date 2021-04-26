@@ -60,7 +60,7 @@ const Skills = () => {
 	]
 	return <>
 		<div className={styles.greyBackground}>
-			<h1>Education</h1>
+			<h1>Skills</h1>
 		</div>
 		{ SkillsJSON.map((skill) => (
 			<div className={styles.inPage}>
