@@ -1,8 +1,7 @@
 import Header from '../header'
 import styles from '../../styles/Home.module.css'
 import Contact from '../../utils/contact'
-import Experience from './experiences'
-import Projects from './projects'
+import Edu from './edu'
 
 const Work = () => {
 	const onClickTitle = () => {
@@ -12,8 +11,7 @@ const Work = () => {
 	<Header></Header>
 	<main className={styles.main}>
 		<Contact></Contact>
-		<Experience></Experience>
-		<Projects></Projects>
+		<Edu></Edu>
 	</main>
 
 	<footer className={styles.footer}>
