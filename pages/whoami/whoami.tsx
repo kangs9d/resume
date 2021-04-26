@@ -1,6 +1,6 @@
 import styles from '../../styles/Home.module.css'
 
-const Me = () => {
+const AboutMe = () => {
 
 	const AboutMeJSON = [
 		{
@@ -64,4 +64,4 @@ const Me = () => {
 	</>
 }
 
-export default Me
+export default AboutMe
