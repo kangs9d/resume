@@ -2,7 +2,7 @@ import Header from '../header'
 import styles from '../../styles/Home.module.css'
 import Contact from '../../utils/contact'
 import Footer from '../footer'
-import AboutMe from './aboutMe'
+import Me from './aboutMe'
 
 const WhoAmI = () => {
 	return (
@@ -10,7 +10,7 @@ const WhoAmI = () => {
 		<Header></Header>
 		<main className={styles.main}>
 			<Contact></Contact>
-            <AboutMe></AboutMe>
+            <Me></Me>
 		</main>
 
 		<Footer></Footer>
